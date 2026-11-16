@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:fontFamily="serif"
+        android:text="@string/txt_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#73092D"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="51dp"
+        android:text="@string/txt_subtitle"
+        android:textColor="#010E0D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_HP"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_HP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="262dp"
+        android:text="@string/txt_name1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_HP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/btn_HP"
+        app:layout_constraintBottom_toTopOf="@+id/btn_HG"
+        app:layout_constraintStart_toEndOf="@+id/txt_HP" />
+
+    <TextView
+        android:id="@+id/txt_HG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="1dp"
+        android:text="@string/txt_name2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_HG"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_HP" />
+
+    <Button
+        android:id="@+id/btn_HG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_HG"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_HG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt_HG" />
+</androidx.constraintlayout.widget.ConstraintLayout>

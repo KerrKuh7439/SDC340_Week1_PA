@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kerri Kuhnke - Contacts Address Book</string>
+    <string name="txt_name1">Aaron Potter</string>
+    <string name="txt_name2">Ashley Granger</string>
+    <string name="txt_num1">Phone: (123) 456-7890</string>
+    <string name="txt_num2">Phone: (091) 876-5432</string>
+    <string name="txt_add1">Address: 934 Hogwars Ln, Magic Kingdom, MK 78954</string>
+    <string name="txt_add2">Address: 77 Diagon Alley, Magic Kingdom, MK 12546</string>
+    <string name="txt_email1">aaron.pott@gmail.com</string>
+    <string name="txt_email2">ashleyg@yahoo.com</string>
+    <string name="txt_title">Kerri\'s Magical Contact Book</string>
+    <string name="txt_subtitle">A____________________________</string>
+    <string name="btn_HP">See Contact Details</string>
+    <string name="btn_HG">See Contact Details</string>
+    <string name="btn_goback1">Return to Contact List</string>
+    <string name="btn_goback2">Return to Contact List</string>
+</resources>

@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/example/kerrikuhnke_contactsaddressbook/HermioneGrangerContactPage.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/kerrikuhnke_contactsaddressbook/HermioneGrangerContactPage.kt b/app/src/main/java/com/example/kerrikuhnke_contactsaddressbook/HermioneGrangerContactPage.kt
+--- a/app/src/main/java/com/example/kerrikuhnke_contactsaddressbook/HermioneGrangerContactPage.kt	
++++ b/app/src/main/java/com/example/kerrikuhnke_contactsaddressbook/HermioneGrangerContactPage.kt	(date 1794796837889)
+@@ -6,6 +6,6 @@
+ class HermioneGrangerContactPage : AppCompatActivity() {
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+-        setContentView(R.layout.activity_hermione_granger_contact_page)
++        setContentView(R.layout.activit)
+     }
+ }
+\ No newline at end of file
